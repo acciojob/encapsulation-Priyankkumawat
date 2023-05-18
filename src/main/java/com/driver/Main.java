@@ -3,8 +3,8 @@ package com.driver;
 public class Main {
   public static void main(String[] args) {
     RWOnly obj=new RWOnly();
-    obj.setter("Priyank");
-    String str=obj.getter();
+    obj.setName("Priyank");
+    String str=obj.getName();
     System.out.println(str);
   }
 }
